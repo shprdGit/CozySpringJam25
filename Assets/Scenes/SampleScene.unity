@@ -3160,12 +3160,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5af5e69a9f6f0b4a988e6ea2e0c0098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  peony: 0
-  columbine: 0
-  bluebell: 0
+  peony: 1
+  columbine: 1
+  bluebell: 1
   peonyImage: {fileID: 870914883}
   columbineImage: {fileID: 937935996}
   bluebellImage: {fileID: 1955332272}
+  addItemSound: {fileID: 8300000, guid: f5a9c1f0618f94b078baaaa83fc74221, type: 3}
+  removeItemSound: {fileID: 8300000, guid: c78b2d1f130c743c5b8f380dea7a0868, type: 3}
 --- !u!1 &654459008
 GameObject:
   m_ObjectHideFlags: 0
