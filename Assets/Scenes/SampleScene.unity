@@ -530,7 +530,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9133074, y: -0.89729404, z: -10}
+  m_LocalPosition: {x: -0.7746494, y: -0.89729404, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1780,7 +1780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1035609741751340287, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
       propertyPath: m_LinearDamping
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1943044566848467477, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1825,6 +1825,18 @@ PrefabInstance:
     - target: {fileID: 3829135851868575673, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: takeoffForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: movementSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: flightMultiplier
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6493327067486667666, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
       propertyPath: audioSource
@@ -1941,3 +1953,5 @@ SceneRoots:
   - {fileID: 4504856446250888202}
   - {fileID: 123151464}
   - {fileID: 1893979138}
+  - {fileID: 6167371766961232572}
+  - {fileID: 69757999408283661}
