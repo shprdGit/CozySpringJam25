@@ -19,10 +19,11 @@ public class FlowerDesire : MonoBehaviour
     public Sprite columbineSprite;
     public Sprite bluebellSprite;
     public SpriteRenderer FlowerRender;
+    public GameObject interactable;
 
     void Start()
     {
-        happyTimer = happyFor;
+        //happyTimer = happyFor;
         wantsFlower = false;
         canInteract = false;
         interact = InputSystem.actions.FindAction("Interact");
@@ -72,6 +73,7 @@ public class FlowerDesire : MonoBehaviour
         if (other.gameObject.tag == "Interaction")
         {
             canInteract = true;
+            interactable.gameObject.SetActive(true);
         }
     }
 
@@ -80,6 +82,7 @@ public class FlowerDesire : MonoBehaviour
         if (other.gameObject.tag == "Interaction")
         {
             canInteract = false;
+            interactable.gameObject.SetActive(false);
         }
     }
 
@@ -90,6 +93,7 @@ public class FlowerDesire : MonoBehaviour
             case FlowersList.peony:
                 if (PlayerInventory.Instance.peony == true)
                 {
+                    PlayerInventory.Instance.totalDeliveries++;
                     PlayerInventory.Instance.ChangePeony(false);
                     Debug.Log("Delivered a Peony!");
                     happyTimer = happyFor;
@@ -104,6 +108,7 @@ public class FlowerDesire : MonoBehaviour
             case FlowersList.columbine:
                 if (PlayerInventory.Instance.columbine == true)
                 {
+                    PlayerInventory.Instance.totalDeliveries++;
                     PlayerInventory.Instance.ChangeColumbine(false);
                     Debug.Log("Delivered a Columbine!");
                     happyTimer = happyFor;
@@ -118,6 +123,7 @@ public class FlowerDesire : MonoBehaviour
             case FlowersList.bluebell:
                 if (PlayerInventory.Instance.bluebell == true)
                 {
+                    PlayerInventory.Instance.totalDeliveries++;
                     PlayerInventory.Instance.ChangeBluebell(false);
                     Debug.Log("Delivered a Bluebell!");
                     happyTimer = happyFor;

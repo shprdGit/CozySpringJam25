@@ -5,6 +5,7 @@ public class PostOfficeInteraction : MonoBehaviour
 {
     private bool canInteract;
     private InputAction interact;
+    public GameObject interactable;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class PostOfficeInteraction : MonoBehaviour
         if (other.gameObject.tag == "Interaction")
         {
             canInteract = true;
+            interactable.gameObject.SetActive(true);
         }
     }
 
@@ -25,6 +27,7 @@ public class PostOfficeInteraction : MonoBehaviour
         if (other.gameObject.tag == "Interaction")
         {
             canInteract = false;
+            interactable.gameObject.SetActive(false);
         }
     }
 
@@ -34,7 +37,6 @@ public class PostOfficeInteraction : MonoBehaviour
         {
             if (interact.IsPressed())
             {
-                PlayerInventory.Instance.EmptyInventory();
                 PlayerInventory.Instance.FillInventory();
             }
         }

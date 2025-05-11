@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     private InputAction movement;
     private InputAction takeoff;
+    private InputAction lookAround;
 
     private Rigidbody2D rb;
     [SerializeField]
@@ -26,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private Slider takeoffSlider;
+    [SerializeField]
+    private GameObject bigCamera;
 
 
     void Start()
@@ -34,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = false;
         movement = InputSystem.actions.FindAction("Move");
         takeoff = InputSystem.actions.FindAction("Jump");
+        lookAround = InputSystem.actions.FindAction("LookAround");
         canMove = true;
         takeoffCountdown = 0f;
     }
@@ -60,6 +64,14 @@ public class PlayerMovement : MonoBehaviour
                 takeoffCountdown = 0f;
                 animationScript.ChargeControl(false);
             }
+        }
+
+        if (lookAround.IsPressed() && isGrounded)
+        {
+            bigCamera.gameObject.SetActive(true);
+        }else
+        {
+            bigCamera.gameObject.SetActive(false);
         }
     }
 
