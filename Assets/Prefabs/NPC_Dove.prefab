@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 569037637291253837}
+  - component: {fileID: 2042531318753206398}
   m_Layer: 0
   m_Name: NPC_Dove
   m_TagString: Untagged
@@ -25,13 +26,25 @@ Transform:
   m_GameObject: {fileID: 503803303364031111}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.08, y: -3.04, z: 0.05306635}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1014023987779194934}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042531318753206398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503803303364031111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb1691ae79e9684b8bd5ef7499487c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3635535019609974101
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &471770144739918691
+--- !u!1 &3405420975176245559
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8679301466101146631}
-  - component: {fileID: 4005373364905290960}
-  - component: {fileID: 9186176794583483563}
+  - component: {fileID: 463686155501043533}
+  - component: {fileID: 3853826673815476145}
   m_Layer: 0
-  m_Name: GooseVisuals
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8679301466101146631
+  m_IsActive: 0
+--- !u!4 &463686155501043533
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471770144739918691}
+  m_GameObject: {fileID: 3405420975176245559}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5531983965555136230}
+  m_Father: {fileID: 2721745004997355366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4005373364905290960
+--- !u!212 &3853826673815476145
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471770144739918691}
+  m_GameObject: {fileID: 3405420975176245559}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 25
-  m_Sprite: {fileID: -2914568766184224123, guid: c91407969e664c74cb5a81935de7e469, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 3666398669009229811, guid: 67faee4f098f30d46a5a0a8e226e64ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,29 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9186176794583483563
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471770144739918691}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f1286d573a593cb41a21a6cb118c29a2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1 &4224842518617403189
+--- !u!1 &5167458527336023483
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,39 +95,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5531983965555136230}
-  - component: {fileID: 6177588427913555956}
-  - component: {fileID: 5064134134344946387}
+  - component: {fileID: 2721745004997355366}
+  - component: {fileID: 1390395061071012798}
+  - component: {fileID: 3649477752520818980}
   m_Layer: 0
-  m_Name: NPC_Goose
+  m_Name: NPC_Requester
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5531983965555136230
+--- !u!4 &2721745004997355366
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4224842518617403189}
+  m_GameObject: {fileID: 5167458527336023483}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8679301466101146631}
+  - {fileID: 463686155501043533}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &6177588427913555956
+--- !u!114 &1390395061071012798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167458527336023483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2a64a85a160a94cab01d5fcd7b03b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestedFlower: 0
+  happyFor: 10
+  peonySprite: {fileID: -3977111117805698736, guid: 8772110476bab1146b889e238d8667c6, type: 3}
+  columbineSprite: {fileID: 6903209316873232392, guid: 5b4795840cbe7e74f885035d1f78d0d2, type: 3}
+  bluebellSprite: {fileID: 3666398669009229811, guid: 67faee4f098f30d46a5a0a8e226e64ca, type: 3}
+  FlowerRender: {fileID: 3853826673815476145}
+--- !u!61 &3649477752520818980
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4224842518617403189}
+  m_GameObject: {fileID: 5167458527336023483}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -178,7 +173,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03613341, y: 0.25293362}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -188,17 +183,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3035204, y: 1.5058672}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5064134134344946387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4224842518617403189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fb1691ae79e9684b8bd5ef7499487c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

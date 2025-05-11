@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     private bool canMove;
 
+    [SerializeField]
+    private Slider takeoffSlider;
+
 
     void Start()
     {
@@ -31,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         movement = InputSystem.actions.FindAction("Move");
         takeoff = InputSystem.actions.FindAction("Jump");
         canMove = true;
-        takeoffCountdown = takeoffTimer;
+        takeoffCountdown = 0f;
     }
 
     void Update()
@@ -41,16 +45,19 @@ public class PlayerMovement : MonoBehaviour
             if (takeoff.IsPressed())
             {
                 animationScript.ChargeControl(true);
-                takeoffCountdown -= Time.deltaTime;
+                takeoffCountdown += Time.deltaTime;
+                takeoffSlider.gameObject.SetActive(true);
+                takeoffSlider.value = takeoffCountdown / takeoffTimer;
                 canMove = false;
-                if (takeoffCountdown <= 0f)
+                if (takeoffCountdown > takeoffTimer)
                 {
                     StartCoroutine(Takeoff());
                 }
             }else
             {
+                takeoffSlider.gameObject.SetActive(false);
                 canMove = true;
-                takeoffCountdown = takeoffTimer;
+                takeoffCountdown = 0f;
                 animationScript.ChargeControl(false);
             }
         }
@@ -116,7 +123,8 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator Takeoff()
     {
         rb.AddForceY(takeoffForce, ForceMode2D.Impulse);
-        takeoffCountdown = takeoffTimer;
+        takeoffSlider.gameObject.SetActive(false);
+        takeoffCountdown = 0f;
         animationScript.ChargeControl(false);
         isGrounded = false;
         yield return new WaitForSeconds(takeoffTimer/2);
