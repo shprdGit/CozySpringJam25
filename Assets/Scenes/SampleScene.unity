@@ -172,7 +172,6 @@ GameObject:
   m_Component:
   - component: {fileID: 286151289}
   - component: {fileID: 286151288}
-  - component: {fileID: 286151287}
   - component: {fileID: 286151286}
   m_Layer: 3
   m_Name: Obstacle (1)
@@ -227,33 +226,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &286151287
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286151285}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &286151288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -582,7 +554,6 @@ GameObject:
   m_Component:
   - component: {fileID: 915411820}
   - component: {fileID: 915411819}
-  - component: {fileID: 915411818}
   - component: {fileID: 915411817}
   m_Layer: 3
   m_Name: Obstacle (2)
@@ -637,33 +608,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &915411818
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915411816}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &915411819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -874,7 +818,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1399786369}
   - component: {fileID: 1399786368}
-  - component: {fileID: 1399786367}
   - component: {fileID: 1399786366}
   m_Layer: 3
   m_Name: Obstacle (3)
@@ -929,33 +872,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1399786367
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399786365}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &1399786368
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1036,7 +952,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1427578521}
   - component: {fileID: 1427578520}
-  - component: {fileID: 1427578519}
   - component: {fileID: 1427578518}
   m_Layer: 3
   m_Name: Obstacle (5)
@@ -1091,33 +1006,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1427578519
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427578517}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &1427578520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1198,7 +1086,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1490479093}
   - component: {fileID: 1490479092}
-  - component: {fileID: 1490479091}
   - component: {fileID: 1490479090}
   m_Layer: 3
   m_Name: Obstacle (4)
@@ -1253,33 +1140,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1490479091
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490479089}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &1490479092
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1360,7 +1220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1934267022}
   - component: {fileID: 1934267021}
-  - component: {fileID: 1934267024}
   - component: {fileID: 1934267023}
   m_Layer: 3
   m_Name: Obstacle
@@ -1485,33 +1344,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1934267024
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934267020}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2114504394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1354,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2114504398}
   - component: {fileID: 2114504397}
-  - component: {fileID: 2114504396}
   - component: {fileID: 2114504395}
   m_Layer: 3
   m_Name: Obstacle (6)
@@ -1577,33 +1408,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &2114504396
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114504394}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &2114504397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1674,6 +1478,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 123151464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &69757999408283661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4224842518617403189, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_Name
+      value: NPC_Goose
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.05306635
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531983965555136230, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02f79b01051425c46a13a2c828f12060, type: 3}
 --- !u!1001 &4504856446250888202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1682,6 +1543,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035609741751340287, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035609741751340287, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: m_LinearDamping
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1943044566848467477, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.58
@@ -1726,11 +1595,80 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: takeoffForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: movementSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931091285137006371, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+      propertyPath: flightMultiplier
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0737899b93ccc634fb1364afec19af69, type: 3}
+--- !u!1001 &6167371766961232572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 503803303364031111, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_Name
+      value: NPC_Dove
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.05306635
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569037637291253837, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aaa1a2b176e60c3408a8a399ac78e00c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1740,3 +1678,5 @@ SceneRoots:
   - {fileID: 908407259}
   - {fileID: 4504856446250888202}
   - {fileID: 123151464}
+  - {fileID: 69757999408283661}
+  - {fileID: 6167371766961232572}

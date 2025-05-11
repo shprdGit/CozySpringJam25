@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float movementSpeed;
     [SerializeField]
+    private float flightMultiplier;
+    [SerializeField]
     private float takeoffForce;
     [SerializeField]
     private float takeoffTimer;
@@ -73,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     animationScript.AccelerationControl(true);
                     Vector2 direction = movement.ReadValue<Vector2>().normalized;
-                    rb.linearVelocity = new Vector2(direction.x * movementSpeed, direction.y * movementSpeed);
+                    rb.linearVelocity = new Vector2(direction.x * movementSpeed * flightMultiplier, direction.y * movementSpeed * flightMultiplier);
                     HandleFacing();
                 }
             }else
